@@ -1,0 +1,35 @@
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: orangered;
+    list-style: none;
+    height: 75px;
+    margin: 0;
+}
+
+.navigation>li {
+    margin-right: 75px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+nav a,
+nav a:visited {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.active-menu-link {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.default-menu-link {
+    color: white;
+    border-bottom: 2px solid transparent;
+}
