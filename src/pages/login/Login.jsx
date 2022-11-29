@@ -1,10 +1,10 @@
 import React from 'react';
 import './Login.css'
 
-function Login(props) {
+function Login({ toggleIsAuthenticated }) {
   return (
     <div className="container">
-      <button type="button">Inloggen</button>
+      <button type="button" onClick={toggleIsAuthenticated}>Inloggen</button>
     </div>
   );
 }

@@ -14,3 +14,9 @@ button {
     font-size: 18px;
     border: none;
 }
+
+button:hover {
+    border: 2px solid orangered;
+    background-color: white;
+    color: orangered;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Blogposts.css"
 import posts from '../../data/posts.json'
+import {Link} from "react-router-dom";
 
 function Blogposts(props) {
   console.log(posts);
@@ -11,7 +12,7 @@ function Blogposts(props) {
 
       <ul className="blogposts">
         {posts.map((post) => (
-          <li>{post.title}</li>
+          <li key={post.id}><Link to={"/blog/" + post.id}>{post.title}</Link></li>
         ))}
       </ul>
     </>
