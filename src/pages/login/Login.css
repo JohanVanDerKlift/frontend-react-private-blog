@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+button:hover {
+    border: 2px solid orangered;
+    background-color: white;
+    color: orangered;
+}
